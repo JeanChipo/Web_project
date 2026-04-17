@@ -1,5 +1,5 @@
 body {
-    margin: 0%;
+    margin:     0%;
     font-family:'roboto', sans-serif;
 }
 
@@ -75,6 +75,41 @@ header nav a {
 header nav a:hover{
     color: #e0e0e0;
     text-decoration: underline;
+<<<<<<< HEAD
+=======
+}
+
+footer {
+    background-color: rgb(10, 43, 91);
+    color:rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    padding-left: 1em;
+}
+
+footer nav {
+    display: flex;
+    gap: 20px;
+    padding-right: 1em;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+footer nav ul li a {
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    padding: 1em;
+}
+
+#news {
+    align-items: center;
+    padding : 10px;
+>>>>>>> 6c37c1dccfb04fa3974a9543cc6a1a45ab5de7cb
 }
 
 #news {
@@ -183,12 +218,27 @@ header nav a:hover{
     border-right: 5px solid #1e4a8c;
 }
 
+#fastlink ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+#fastlink ul li {
+    display: flex;
+    justify-content: center;
+}
+
 #fastlink button {
     background-color: #1e4a8c;
-    color: rgb(209, 209, 209);
+    color: white;
     border-radius: 5px;
     border : none;
-    padding : 5px;
+    padding : 10px;
+    width: 100%;
+    height: 100%;
 }
 
 #fastlink button:hover {
@@ -199,12 +249,12 @@ header nav a:hover{
 #subscribe {
     padding : 10px;
     width : 40%;
-    color: rgb(209, 209, 209);
+    color: white;
 }
 
 #subscribe button {
     background-color: #1e4a8c;
-    color: rgb(209, 209, 209);
+    color: white;
     border-radius: 5px;
     border : none;
     padding : 5px;
