@@ -106,6 +106,7 @@ footer nav ul li a {
 
 #news {
     align-items: center;
+    padding : 10px;
 }
 
 #news2 {
@@ -120,7 +121,7 @@ footer nav ul li a {
     color: white;
     border-radius: 5px;
     border : none;
-    padding : 3px;
+    padding : 5px;
 }
 
 #news2 button:hover {
@@ -132,7 +133,6 @@ footer nav ul li a {
     background-color: #163767;
     display : flex;
     gap : 20px;
-    border-radius : 5px;
 }
 
 #fastlink {
@@ -141,22 +141,43 @@ footer nav ul li a {
     width : 60%;
     display : flex;
     gap : 20px;
+    border-right: 5px solid #1e4a8c;
 }
 
-#fastlink a {
-    padding : 5px;
+#fastlink button {
     background-color: #1e4a8c;
     color: rgb(209, 209, 209);
-    text-decoration : none;
+    border-radius: 5px;
+    border : none;
+    padding : 5px;
 }
 
-#fastlink a:hover {
+#fastlink button:hover {
     background-color: #163767;
-    color: rgb(209, 209, 209);
+    cursor: pointer;
 }
 
 #subscribe {
     padding : 10px;
     width : 40%;
     color: rgb(209, 209, 209);
+}
+
+#subscribe button {
+    background-color: #1e4a8c;
+    color: rgb(209, 209, 209);
+    border-radius: 5px;
+    border : none;
+    padding : 5px;
+}
+
+#subscribe button:hover {
+    background-color: #163767;
+    cursor: pointer;
+}
+
+#subscribe input {
+    padding : 5px;
+    border-radius: 5px;
+    border : none;
 }
