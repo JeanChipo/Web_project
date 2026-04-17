@@ -1,8 +1,3 @@
-/**{
-    margin : 0;
-    padding: 0;
-}*/
-
 body {
     margin: 0%;
     font-family:'roboto', sans-serif;
@@ -80,4 +75,59 @@ header nav a {
 header nav a:hover{
     color: #e0e0e0;
     text-decoration: underline;
+}#news {
+    align-items: center;
+}
+
+#news2 {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    gap : 20px;
+    padding : 20px;
+}
+#news2 button {
+    background-color: #163767;
+    color: white;
+    border-radius: 5px;
+    border : none;
+    padding : 3px;
+}
+
+#news2 button:hover {
+    background-color: #1e4a8c;
+    cursor: pointer;
+}
+
+#link {
+    background-color: #163767;
+    display : flex;
+    gap : 20px;
+    border-radius : 5px;
+}
+
+#fastlink {
+    color: rgb(209, 209, 209);
+    padding : 10px;
+    width : 60%;
+    display : flex;
+    gap : 20px;
+}
+
+#fastlink a {
+    padding : 5px;
+    background-color: #1e4a8c;
+    color: rgb(209, 209, 209);
+    text-decoration : none;
+}
+
+#fastlink a:hover {
+    background-color: #163767;
+    color: rgb(209, 209, 209);
+}
+
+#subscribe {
+    padding : 10px;
+    width : 40%;
+    color: rgb(209, 209, 209);
 }
