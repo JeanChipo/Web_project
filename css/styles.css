@@ -75,7 +75,36 @@ header nav a {
 header nav a:hover{
     color: #e0e0e0;
     text-decoration: underline;
-}#news {
+}
+
+footer {
+    background-color: rgb(10, 43, 91);
+    color:rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    padding-left: 1em;
+}
+
+footer nav {
+    display: flex;
+    gap: 20px;
+    padding-right: 1em;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+footer nav ul li a {
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    padding: 1em;
+}
+
+#news {
     align-items: center;
 }
 
