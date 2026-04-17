@@ -75,8 +75,6 @@ header nav a {
 header nav a:hover{
     color: #e0e0e0;
     text-decoration: underline;
-<<<<<<< HEAD
-=======
 }
 
 footer {
@@ -109,7 +107,6 @@ footer nav ul li a {
 #news {
     align-items: center;
     padding : 10px;
->>>>>>> 6c37c1dccfb04fa3974a9543cc6a1a45ab5de7cb
 }
 
 #news {
