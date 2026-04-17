@@ -75,10 +75,64 @@ header nav a {
 header nav a:hover{
     color: #e0e0e0;
     text-decoration: underline;
-}#news {
-    align-items: center;
-    padding : 10px;
 }
+
+#news {
+    background-color: #163767;
+    position: relative;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: auto;
+    align-items: stretch;
+}
+
+#news img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 1;
+    max-height: 100vh;
+}
+
+#buttonsL {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#buttonsR {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#buttonsL, #buttonsR {
+    background-color: #1e4a8c;
+    color: rgb(209, 209, 209);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    top: 50%;
+    display : flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonsL button, #buttonsR button {
+    background-color: #1e4a8c;
+    color: rgb(209, 209, 209);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#buttonsL button:hover, #buttonsR button:hover {
+    background-color: #163767;
+}
+
+
 
 #news2 {
     background-color: #f0f0f0;
@@ -87,15 +141,29 @@ header nav a:hover{
     gap : 20px;
     padding : 20px;
 }
-#news2 button {
+
+#news2 div {
+    width : 33%;
+}
+
+#news2 div:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease;
+    background-color : #dfdfdf;
+    border-radius: 5px;
+}
+
+
+#news2 a {
     background-color: #163767;
     color: white;
     border-radius: 5px;
     border : none;
     padding : 5px;
+    text-decoration : none;
 }
 
-#news2 button:hover {
+#news2 a:hover {
     background-color: #1e4a8c;
     cursor: pointer;
 }
